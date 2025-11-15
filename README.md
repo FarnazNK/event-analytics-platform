@@ -5,7 +5,6 @@ A production-ready, secure real-time event processing and analytics platform bui
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109+-green.svg)](https://fastapi.tiangolo.com/)
 [![Security: OWASP](https://img.shields.io/badge/security-OWASP-brightgreen.svg)](https://owasp.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Key Features
 
