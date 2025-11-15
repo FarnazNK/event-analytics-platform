@@ -7,7 +7,7 @@ A production-ready, secure real-time event processing and analytics platform bui
 [![Security: OWASP](https://img.shields.io/badge/security-OWASP-brightgreen.svg)](https://owasp.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 🎯 Key Features
+## Key Features
 
 ### Security & Compliance
 - **OAuth 2.0 with JWT** - Secure authentication and authorization
@@ -33,7 +33,7 @@ A production-ready, secure real-time event processing and analytics platform bui
 - **Database Agnostic** - PostgreSQL/MySQL support
 - **Event Streaming** - Real-time data processing
 
-## 🔒 Security Notice
+## Security Notice
 
 **This is an open-source project following security best practices:**
 
@@ -47,7 +47,7 @@ A production-ready, secure real-time event processing and analytics platform bui
 - ✅ Security headers enabled
 - ✅ Dependency vulnerability scanning
 
-**⚠️ Before deploying to production:**
+** Before deploying to production:**
 1. Change all default secrets in `.env`
 2. Enable HTTPS/TLS
 3. Configure proper CORS origins
@@ -55,7 +55,7 @@ A production-ready, secure real-time event processing and analytics platform bui
 5. Enable audit logging
 6. Configure firewall rules
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.11+
@@ -110,7 +110,7 @@ uvicorn app.main:app --reload
 docker-compose up -d
 ```
 
-## 📊 Architecture Overview
+## Architecture Overview
 
 ```
 event-analytics-platform/
@@ -135,7 +135,7 @@ event-analytics-platform/
 └── scripts/                # Utility scripts
 ```
 
-## 🔐 Security Features
+## Security Features
 
 ### Authentication & Authorization
 ```python
@@ -172,7 +172,7 @@ class EventCreate(BaseModel):
 - `Content-Security-Policy`
 - `X-XSS-Protection`
 
-## 📈 Performance Features
+## Performance Features
 
 ### Multi-tier Caching
 ```python
@@ -199,7 +199,7 @@ GET /health/live     # Liveness probe
 GET /metrics         # Prometheus metrics
 ```
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -217,7 +217,7 @@ pytest tests/performance
 pytest tests/security
 ```
 
-## 📊 API Documentation
+## API Documentation
 
 ### Events API
 ```bash
@@ -273,7 +273,7 @@ ENABLE_METRICS=true
 LOG_LEVEL=INFO
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Checklist
 - [ ] Generate strong SECRET_KEY: `openssl rand -hex 32`
@@ -295,7 +295,7 @@ LOG_LEVEL=INFO
 docker-compose -f docker-compose.prod.yml up -d
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -303,29 +303,15 @@ docker-compose -f docker-compose.prod.yml up -d
 4. Run security checks
 5. Submit pull request
 
-## 📝 License
-
-MIT License - see [LICENSE](LICENSE) file
-
-## 🛡️ Security Policy
-
-Found a security vulnerability? Please email security@example.com or create a private security advisory on GitHub.
-
-**Do not** create public issues for security vulnerabilities.
-
-## 📚 Additional Resources
+## Additional Resources
 
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
 - [OWASP API Security](https://owasp.org/www-project-api-security/)
 - [Python Security Best Practices](https://python.readthedocs.io/en/latest/library/security_warnings.html)
 
-## 👨‍💻 Author
+## Author
 
 **Farnaz Nasehi**
-- LinkedIn: [linkedin.com/in/farnaz-nasehi](https://linkedin.com/in/farnaz-nasehi)
-- GitHub: [github.com/fnasehi](https://github.com/fnasehi)
-- Email: fnasehikalajahi@gmail.com
-
+- LinkedIn: [linkedin.com/in/farnaz-nasehi](www.linkedin.com/in/farnaz-nasehi)
 ---
 
-**Built with ❤️ and security in mind**
